@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}

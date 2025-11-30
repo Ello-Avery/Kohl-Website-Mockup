@@ -1,0 +1,82 @@
+.deals-bar {
+  height: 90px;
+  width: 100%;
+  background-color: #fbf9ee;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 100px;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.welcome h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.welcome h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.deals {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card.green {
+  border: 2px solid darkgreen;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card p {
+  margin: 0;
+}
+
+.deal-header {
+  color: red;
+  font-size: 20px;
+}
+
+.deal-header.green {
+  color: darkgreen;
+}
+
+.discount-code {
+  color: red;
+  font-weight: 100px;
+}
+
+.discount-code.green {
+  color: darkgreen;
+}
+
+.deal-details {
+  font-weight: 200;
+}
+
+.deal-details span {
+  text-decoration: underline;
+}
